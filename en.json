@@ -8,18 +8,18 @@
     "online": "/me Flavorz bar v%%VERSION%% reporting for duty!.",
 
 
-    "welcome": "/me %%NAME%% has joined the room!",
+    "welcome": "/me %%NAME%% has joind the room!",
     "welcomeback": "/me %%NAME%% has joined the room!",
     "songknown": "",
-    "timelimit": "/me @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs.",
+    "timelimit": "/me @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, skiping...",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
     "isblacklisted": "/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
 
 
-    "isopen": "/me The roulette is now open! Type !join to participate!",
-    "winnerpicked": "/me A winner has been picked! @%%NAME%% to position %%POSITION%%.",
+    "isopen": "/me join the roulette by typing !join",
+    "winnerpicked": "/me Thank you for playing! @%%NAME%% has won moving you to position %%POSITION%%.",
     
-    "ball": "/me %%NAME%%'s question was: \"%%QUESTION%%\" and EF-Bot's response is: \"%%RESPONSE%%\"",
+    "ball": "/me %%NAME%%'s question was: \"%%QUESTION%%\" and Flavorz bar's response is: \"%%RESPONSE%%\"",
 
     "alreadyadding": "/me User is already being added! Changed the desired position to %%POSITION%%.",
     "adding": "/me Added @%%NAME%% to the queue. Current queue: %%POSITION%%.",
