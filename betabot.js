@@ -47,7 +47,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/dj-monstercat/Flavorz-bot1/master/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/dj-monstercat/Flavorz-bot1/langIndex.json", function (json) {
             var link = trapbot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -177,7 +177,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/dj-monstercat/Flavorz-bot1/master/Bot.js",
         cmdLink: "http://goo.gl/qPOuYn",
-        chatLink: "https://rawgit.com/dj-monstercat/Flavorz-bot1/master/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/dj-monstercat/Flavorz-bot1/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -185,7 +185,7 @@
         settings: {
             botName: "EF-Bot",
             language: "english",
-            chatLink: "https://rawgit.com/dj-monstercat/Flavorz-bot1/master/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/dj-monstercat/Flavorz-bot1/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,

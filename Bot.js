@@ -47,7 +47,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/dj-monstercat/kroydeveloper/master/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/dj-monstercat/kroydeveloper/langIndex.json", function (json) {
             var link = trapbot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -175,7 +175,7 @@
         status: false,
         name: "Flavorz-bot1",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/dj-monstercat/kroydeveloper/master/Bot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/dj-monstercat/kroydeveloper/Bot.js",
         cmdLink: "http://goo.gl/qPOuYn",
         chatLink: "https://rawgit.com/kroydeveloper/master/en.json",
         chat: null,
